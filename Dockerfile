@@ -47,6 +47,7 @@ RUN groupadd sudo && \
 RUN mkdir -p /home/centos/maksters
 WORKDIR /home/centos/maksters
 COPY requirements.txt ./
+RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir -r ./requirements.txt
 
 # build and install
