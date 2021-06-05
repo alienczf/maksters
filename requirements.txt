@@ -1,0 +1,9 @@
+# general stuff
+gcsfs==0.8.0
+google-cloud-bigquery==2.13.1
+pandas>=1.1.0
+scipy>=1.5.4
+
+# exchanges
+python-binance
+coinbase
